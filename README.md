@@ -335,4 +335,65 @@ model.evaluate(x_test,y_test)
 ```
 <img src = "img6">
 
+ <h1>
+   Test the model
+ </h1> 
+
+
+ <p>
+   This is what crucial step , when we will going to be check how our model work on unseen data
+ </p>
+
+
+```
+import matplotlib.pyplot as plt
+def  img_plot(x_test , index = 0):
+    
+    plt.imshow(x_test[index].astype('uint8'))  # force uint8 for proper display
+    plt.axis('off')
+    plt.title('Test Image')
+    plt.show()
+
+
+index  = 100
+img_plot(x_test , index)
+
+
+```
+
+```
+index  = 100
+img_plot(x_test , index)
+input = x_test[index:index+1]
+preds = model.predict(input)[0].argmax()
+label = y_test[index].argmax()
+print("Predicted value " , preds)
+print("True value" , label)
+
+```
+
+<img src = img7>
+
+<p>
+  As per our data, image 100 has a Non-cancer patient image and our mdeol predict paerson doesn't have cancer
+</p>
+
+```
+
+index  = 4000
+img_plot(x_test , index)
+input = x_test[index:index+1]
+preds = model.predict(input)[0].argmax()
+label = y_test[index].argmax()
+print("Predicted value " , preds)
+print("True value" , label)
+
+```
+
+
+<img src = img8>
+
+<p>
+  As per our data, image 4000 has a cancer patient image and our mdeol predict paerson has cancer
+</p>
 

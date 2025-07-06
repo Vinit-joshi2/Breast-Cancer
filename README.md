@@ -1,7 +1,8 @@
 # 🧬 Breast Cancer Detection with Histopathology Images
 
 <p>
-  This project focuses on binary image classification—detecting Invasive Ductal Carcinoma (IDC) in breast tissue—using the Kaggle Breast Histopathology Images dataset  The dataset contains 277,524 high-resolution 50×50 RGB image patches, extracted from 162 patient whole-slide specimens
+  This project focuses on binary image classification—detecting Invasive Ductal Carcinoma (IDC) in breast tissue—using the Kaggle 
+  <a src = "https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images">Breast Histopathology Images dataset </a>.The dataset contains 277,524   high-resolution 50×50 RGB image patches, extracted from 162 patient whole-slide specimens
 </p>
 
 <p>
@@ -45,13 +46,15 @@ Normal breast with invasive ductal carcinoma (IDC) in an enlarged cross-section 
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your Kaggle API, download the data  and follow the steps to loa
+3. Set up your Kaggle API, download the data  and follow the steps to load
    
     - Run this command on any code editor
+
       
    ```
      !pip install opendatasets
    ```
+
    
     - Once you install library then run below command  for loading data into your editor for that you need to pass your kaggle credentials
       
@@ -59,7 +62,6 @@ Normal breast with invasive ductal carcinoma (IDC) in an enlarged cross-section 
        import opendatasets as od
        url = "https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images/data"
        od.download(url)
-   
    ```
 
   

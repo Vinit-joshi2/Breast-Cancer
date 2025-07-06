@@ -2,7 +2,7 @@
 
 <p>
   This project focuses on binary image classification—detecting Invasive Ductal Carcinoma (IDC) in breast tissue—using the Kaggle 
-  <a src = "https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images">Breast Histopathology Images dataset </a>.The dataset contains 277,524   high-resolution 50×50 RGB image patches, extracted from 162 patient whole-slide specimens
+  <a href = "https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images">Breast Histopathology Images dataset </a>.The dataset contains 277,524   high-resolution 50×50 RGB image patches, extracted from 162 patient whole-slide specimens
 </p>
 
 <p>

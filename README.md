@@ -141,7 +141,7 @@ for num in some_can:
 
 
 <p>
--  In breast-histopathology-images folder contain 2 types of images one is no-cancer images and cancer images
+- In breast-histopathology-images folder contain 2 types of images one is no-cancer images and cancer images
   
 - Sometimes we can find artifacts or incomplete patches that have smaller size than 50x50 pixels.
 
@@ -431,6 +431,6 @@ print("True value" , label)
 <img src = https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img8.png>
 
 <p>
-  As per our data, image 4000 has a cancer patient image and our mdeol predict paerson has cancer
+  As per our data, image 4000 has a cancer patient image and our model predict paerson has cancer
 </p>
 

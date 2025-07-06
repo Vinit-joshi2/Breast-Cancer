@@ -14,7 +14,7 @@
 </p>
 
 
-<img src = 'breast-cancer'>
+<img src = 'https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/Breast_Cancer.png'>
 
 <p>
 Normal breast with invasive ductal carcinoma (IDC) in an enlarged cross-section of the duct
@@ -99,7 +99,7 @@ for num in some_can:
 
 ```
 
-  <img src = img1>
+  <img src = "https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img1.png">
 
 
 
@@ -191,7 +191,7 @@ print("Testing Data Shape :" , x_test.shape)
 
 ```
 
-<img src = img2>
+<img src = https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img2.png>
 
 <p>
   Done with loading,  Done with preprocessing , Done with spliting the data. .Now next is step is to build Convolutional Neural Network Model
@@ -287,9 +287,9 @@ plt.show()
 
 ```
 
-<img src = 'img3'>
+<img src = 'https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img3.png'>
 
-<img src = 'img4'>
+<img src = 'https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img4.png'>
 
 
 - Accuracy of our model on train and test data is increasing . But Slightly facing an overfitting problem.
@@ -320,7 +320,7 @@ plt.show()
 
 ```
 
-<img src = img5>
+<img src = https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img5.png>
 
 - 85% our model predict it's 0 and as per our data it is also 0 label
 - 83% our model predict it's 1 and as per our data it is also 1 label
@@ -333,7 +333,7 @@ plt.show()
 model.evaluate(x_test,y_test)
 
 ```
-<img src = "img6">
+<img src = "https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img6.png">
 
  <h1>
    Test the model
@@ -372,7 +372,7 @@ print("True value" , label)
 
 ```
 
-<img src = img7>
+<img src = https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img7.png>
 
 <p>
   As per our data, image 100 has a Non-cancer patient image and our mdeol predict paerson doesn't have cancer
@@ -391,7 +391,7 @@ print("True value" , label)
 ```
 
 
-<img src = img8>
+<img src = https://github.com/Vinit-joshi2/Breast-Cancer/blob/main/images/img8.png>
 
 <p>
   As per our data, image 4000 has a cancer patient image and our mdeol predict paerson has cancer

@@ -45,8 +45,24 @@ Normal breast with invasive ductal carcinoma (IDC) in an enlarged cross-section 
    ```bash
    pip install -r requirements.txt
    ```
-3. Set up your Kaggle API, download the data from kaggle
+3. Set up your Kaggle API, download the data  and follow the steps to loa
+   
+    - Run this command on any code editor
+      
+   ```
+     !pip install opendatasets
+   ```
+   
+    - Once you install library then run below command  for loading data into your editor for that you need to pass your kaggle credentials
+      
+   ```
+       import opendatasets as od
+       url = "https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images/data"
+       od.download(url)
+   
+   ```
 
+  
 
 
 <h1>
